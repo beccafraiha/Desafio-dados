@@ -388,6 +388,3 @@ with r3:
         rank_tr["Status"] = rank_tr["% Atraso"].apply(status_semaforo)
         rank_tr["% Atraso"] = rank_tr["% Atraso"].round(1)
         st.dataframe(rank_tr, hide_index=True, use_container_width=True)
-
-st.markdown("---")
-st.markdown("<p style='color:#6b7280;font-family:Courier New;font-size:0.75rem;text-align:center;'>LogTrack Pro — Dashboard de Monitoramento Logístico · Projeto Acadêmico</p>", unsafe_allow_html=True)
